@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Suku Di Indonesia</string>
+    <string name="suku">Suku</string>
+    <string name="detail_suku">Detail suku</string>
+    <string name="singgih_brilian_tara">Singgih Brilian Tara</string>
+    <string name="email">singgihbrilian.tara06@gmail.com</string>
+    <string name="macam_suku">Macam macam suku</string>
+    <string name="profile">🏠</string>
+
+    <string-array name="suku_array">
+        <item>Jawa</item>
+        <item>Bugis</item>
+        <item>Sunda</item>
+        <item>Sasak</item>
+        <item>Betawi</item>
+        <item>Baduy</item>
+        <item>Toraja</item>
+        <item>Ogan</item>
+        <item>Dayak</item>
+        <item>Nias</item>
+        <item>Asmat</item>
+    </string-array>
+
+    <string-array name="detail_suku_array">
+        <item>Suku Jawa adalah suku yang berasal dari Pulau Jawa, Indonesia Mayoritas orang Jawa adalah umat Islam, dengan beberapa minoritas yaitu Kristen</item>
+        <item>Suku Bugis merupakan suku yang berasal dari Sulawesi Selatan. Penciri utama kelompok etnik ini adalah bahasa dan adat-istiadat, sehingga pendatang Melayu dan Minangkabau yang merantau.</item>
+        <item>Suku Sunda mendiami wilayah Jawa Barat dan sekitarnya. Populasi Suku Sunda secara signifikan juga dapat ditemukan di wilayah provinsi lain di Indonesia, dan di luar negeri seperti di Taiwan, Arab Saudi.</item>
+        <item>Suku Sasak adalah suku asli Pulau Lombok, Nusa Tenggara Barat. Sebagian besar suku Sasak beragama Islam, uniknya pada sebagian kecil masyarakat suku Sasak, terdapat praktik agama Islam yang agak berbeda.</item>
+        <item>Suku Betawi merupakan suku asli Jakarta, dengan budaya khas Betawi. Nama betawi berasal dari kata batavia yang lama kelamaan berubah menjadi Batavi, dari kata Bataw lalu kemudian berubah menjadi Betawi.</item>
+        <item>Suku Baduy adalah suku yang mendiami wilayah Banten dan memiliki kehidupan tradisional.  merupakan sekelompok masyarakat adat Sunda di wilayah pedalaman Kabupaten Lebak, Provinsi Banten. Populasi mereka sekitar 26000 orang.</item>
+        <item>Suku Toraja berasal dari Sulawesi Selatan, terkenal dengan tradisi pemakaman unik. Kata Toraja berasal dari bahasa Bugis, To Riaja, yang berarti orang yang berdiam di negeri atas.</item>
+        <item>Suku Ogan mendiami wilayah Sumatera Selatan. Nenek moyang dari masyarakat suku Ogan diperkirakan berasal dari masyarakat yang menghuni Gunung Dempo, yang terletak di dataran tinggi Basemah.</item>
+        <item>Suku Dayak adalah suku asli Kalimantan, dengan beragam sub-suku. Ada yang membagi orang Dayak dalam enam rumpun antara lain: rumpun Klemantan alias Kalimantan, rumpun Iban dll </item>
+        <item>Suku Nias berasal dari Pulau Nias, Sumatera Utara. Berbagai mitos dalam hoho menceritakan kedatangan suku Nias ke pulau.</item>
+        <item>Suku Asmat adalah suku asli Papua, terkenal dengan seni ukir kayu.Suku Asmat dikenal dengan hasil ukiran kayu tradisional yang sangat khas.</item>
+    </string-array>
+
+    <string-array name="detail_photo">
+        <item>@drawable/asmat</item>
+        <item>@drawable/baduy</item>
+        <item>@drawable/betawi</item>
+        <item>@drawable/bugis</item>
+        <item>@drawable/dayak</item>
+        <item>@drawable/jawa</item>
+        <item>@drawable/nias</item>
+        <item>@drawable/sasak</item>
+        <item>@drawable/toraja</item>
+        <item>@drawable/sunda</item>
+        <item>@drawable/ogan</item>
+    </string-array>
+</resources>

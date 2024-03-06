@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.AndroidSubmission" parent="Theme.Material3.DayNight">
+    </style>
+
+    <style name="Theme.AndroidSubmission" parent="Base.Theme.AndroidSubmission" />
+</resources>

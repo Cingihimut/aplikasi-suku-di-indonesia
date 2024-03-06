@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:ignore="InvalidId">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/detailImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="16dp"
+            tools:src="@tools:sample/avatars"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/detailTextTitle"/>
+
+        <TextView
+            android:id="@+id/detailTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suku"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="183dp"
+            app:layout_constraintBottom_toTopOf="@+id/detailTextOverview"/>
+
+        <TextView
+            android:id="@+id/detailTextOverview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_suku"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="226dp"
+            app:layout_constraintStart_toStartOf="@+id/detailTextTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detailTextTitle"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
